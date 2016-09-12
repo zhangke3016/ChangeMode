@@ -166,11 +166,11 @@
 ```
 注意**textColorAttr**、**backgroundAttr**、**backgroundDrawableAttr**三个属性。如需当前页面立即刷新，需填加相应属性。
 
-|属性|描述|
-|--|--|
-|textColorAttr|修改**字体颜色**时设置。如R.attr.zztextColor  传zztextColor 即可。例:app:textColorAttr="zztextColor"|
-|backgroundAttr|修改**背景颜色/背景图片**时设置。同上。例: app:backgroundAttr="zzbackground"|
-|backgroundDrawableAttr|修改**背景颜色/背景图片**时设置。同上。例: app:backgroundDrawableAttr="zzbackground"|
+属性|描述
+----|  ------
+textColorAttr|修改**字体颜色**时设置。如R.attr.zztextColor  传zztextColor 即可。例:app:textColorAttr="zztextColor"
+backgroundAttr|修改**背景颜色/背景图片**时设置。同上。例: app:backgroundAttr="zzbackground"
+backgroundDrawableAttr|修改**背景颜色/背景图片**时设置。同上。例: app:backgroundDrawableAttr="zzbackground"
 
 #第四步：页面调用java代码
 ```
