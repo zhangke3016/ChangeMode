@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_menu_day"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="白天"/>
+    <item
+        android:id="@+id/item_menu_night"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="黑夜"/>
+
+</menu>

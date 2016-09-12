@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="zkMode">
+        <attr name="backgroundAttr" format="string|reference"/><!--切换背景属性-->
+        <attr name="textColorAttr" format="string|reference"/><!--切换字体颜色属性-->
+        <attr name="backgroundDrawableAttr" format="string|reference"/><!--切换背景图片属性-->
+    </declare-styleable>
+</resources>

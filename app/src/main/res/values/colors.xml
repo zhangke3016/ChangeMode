@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorPrimaryNight">#263238</color>
+    <color name="colorPrimaryDarkNight">#1E282D</color>
+    <color name="colorAccentNight">#73432A</color>
+
+    <color name="dayBackground">#F2F4F7</color>
+    <color name="dayTextColor">#000</color>
+    <color name="dayItemBackground">#fff</color>
+
+    <color name="nightItemBackground">#37474F</color>
+    <color name="nightBackground">#263238</color>
+    <color name="nightTextColor">#fff</color>
+</resources>

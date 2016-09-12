@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/zzbackground"
+    app:backgroundAttr="zzbackground"
+    tools:context="com.thinkfreely.changemode.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:backgroundAttr="colorPrimary"
+            app:titleTextColor="?attr/zztextColor"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            />
+    </android.support.design.widget.AppBarLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:textColor="?attr/zztextColor"
+            app:textColorAttr="zztextColor"
+            android:background="?attr/zzItemBackground"
+            app:backgroundAttr="zzItemBackground"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="22sp"
+            android:textAllCaps="false"
+            android:text="夜间模式切换by Mr.Zk" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:dividerHeight="0.6dp"
+        android:visibility="gone"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"/>
+
+</LinearLayout>
