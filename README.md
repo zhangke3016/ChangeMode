@@ -22,7 +22,7 @@
 ```
 @Override
     protected void onCreate(Bundle savedInstanceState) {
-    		// 在要立即切换效果的页面调用此方法
+    		//1. 在要立即切换效果的页面调用此方法
             ChangeModeController.getInstance().init(this,R.attr.class).setTheme(this, R.style.DayTheme, R.style.NightTheme);
 			//在其他页面调用此方法  
         	//ChangeModeController.setTheme(this, R.style.DayTheme, R.style.NightTheme);
@@ -35,7 +35,7 @@
        // ChangeModeController.getInstance().addTextColor(view,R.attr.colorAccent);
 
 
-       // 设置切换
+       //2. 设置切换
        //ChangeModeController.changeDay(this, R.style.DayTheme);
        //ChangeModeController.changeNight(this, R.style.NightTheme);
     }
@@ -43,7 +43,7 @@
  @Override
     protected void onDestroy() {
         super.onDestroy();
-        //   在onDestroy调用
+        //3. 在onDestroy调用
         ChangeModeController.onDestory();
     }
 ```
