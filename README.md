@@ -7,7 +7,7 @@
 
 #Preview
 ---
-![ChangeMode](http://upload-images.jianshu.io/upload_images/2157910-3a892891fd3886f3.gif?imageMogr2/auto-orient/strip)
+![ChangeMode](gif/screen.gif)
 ---
 #Usage xml
 ```
