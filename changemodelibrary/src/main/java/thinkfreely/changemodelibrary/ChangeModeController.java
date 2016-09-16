@@ -127,7 +127,7 @@ public class ChangeModeController {
         }
         try {
             Field field = draw.getDeclaredField(attrName);
-            field.setAccessible(true);
+            //field.setAccessible(true);
             return field.getInt(attrName);
         } catch (Exception e) {
             return R.attr.colorPrimary;
