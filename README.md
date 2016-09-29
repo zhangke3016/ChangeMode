@@ -22,7 +22,7 @@
 ```
 @Override
     protected void onCreate(Bundle savedInstanceState) {
-    		//1. 在要立即切换效果的页面调用此方法  初始化方法要在super.onCreate方法之前调用
+    		//1. 在要立即切换效果的页面调用此方法  初始化方法要在super.onCreate方法之前调用 无需再Fragment中重复调用初始化方法
             ChangeModeController.getInstance().init(this,R.attr.class).setTheme(this, R.style.DayTheme, R.style.NightTheme);
 			//在其他页面调用此方法  
         	//ChangeModeController.setTheme(this, R.style.DayTheme, R.style.NightTheme);
