@@ -47,6 +47,21 @@
         ChangeModeController.onDestory();
     }
 ```
+**关于Fragment**
+```
+@Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        //use
+        //LayoutInflater.from(getActivity()).inflate(R.layout.fragment_test, container, false)
+
+        //don't use
+       // inflater.inflate(R.layout.fragment_test, container, false);
+        return  LayoutInflater.from(getActivity()).inflate(R.layout.fragment_test, container, false);
+    }
+
+```
+
 #详细操作描述
 ---
 ##第一步：自定义属性
